@@ -1,0 +1,20 @@
+.vivo {
+  border: 20px solid rgb(79, 116, 79);
+  color: rgb(79, 116, 79);
+}
+.morto {
+  border: 20px solid rgb(134, 86, 86);
+  color: rgb(134, 86, 86);
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div .card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 50px;
+  border-radius: 8px;
+}
